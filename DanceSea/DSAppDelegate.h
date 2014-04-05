@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface DSAppDelegate : UIResponder <UIApplicationDelegate> {
 
+UIButton *startButton;
+
+}
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) IBOutlet UIButton *startButton;
+
+- (IBAction)startbutton;
+
 
 @end
