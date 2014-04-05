@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1447145818EFA322000DE761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1447145718EFA322000DE761 /* Foundation.framework */; };
+		1447145A18EFA322000DE761 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1447145918EFA322000DE761 /* CoreGraphics.framework */; };
+		1447145C18EFA322000DE761 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1447145B18EFA322000DE761 /* UIKit.framework */; };
+		1447146218EFA322000DE761 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1447146018EFA322000DE761 /* InfoPlist.strings */; };
+		1447146418EFA322000DE761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447146318EFA322000DE761 /* main.m */; };
+		1447146818EFA322000DE761 /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447146718EFA322000DE761 /* DSAppDelegate.m */; };
+		1447146B18EFA322000DE761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1447146918EFA322000DE761 /* Main.storyboard */; };
+		1447146E18EFA322000DE761 /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447146D18EFA322000DE761 /* DSViewController.m */; };
+		1447147018EFA322000DE761 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1447146F18EFA322000DE761 /* Images.xcassets */; };
+		1447147718EFA323000DE761 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1447147618EFA323000DE761 /* XCTest.framework */; };
+		1447147818EFA323000DE761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1447145718EFA322000DE761 /* Foundation.framework */; };
+		1447147918EFA323000DE761 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1447145B18EFA322000DE761 /* UIKit.framework */; };
+		1447148118EFA323000DE761 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1447147F18EFA323000DE761 /* InfoPlist.strings */; };
+		1447148318EFA323000DE761 /* DanceSeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447148218EFA323000DE761 /* DanceSeaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1447147A18EFA323000DE761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1447144C18EFA322000DE761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1447145318EFA322000DE761;
+			remoteInfo = DanceSea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1447145418EFA322000DE761 /* DanceSea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceSea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1447145718EFA322000DE761 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1447145918EFA322000DE761 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1447145B18EFA322000DE761 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1447145F18EFA322000DE761 /* DanceSea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DanceSea-Info.plist"; sourceTree = "<group>"; };
+		1447146118EFA322000DE761 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1447146318EFA322000DE761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1447146518EFA322000DE761 /* DanceSea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DanceSea-Prefix.pch"; sourceTree = "<group>"; };
+		1447146618EFA322000DE761 /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
+		1447146718EFA322000DE761 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
+		1447146A18EFA322000DE761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1447146C18EFA322000DE761 /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
+		1447146D18EFA322000DE761 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
+		1447146F18EFA322000DE761 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1447147518EFA323000DE761 /* DanceSeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceSeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1447147618EFA323000DE761 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1447147E18EFA323000DE761 /* DanceSeaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DanceSeaTests-Info.plist"; sourceTree = "<group>"; };
+		1447148018EFA323000DE761 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1447148218EFA323000DE761 /* DanceSeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanceSeaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1447145118EFA322000DE761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1447145A18EFA322000DE761 /* CoreGraphics.framework in Frameworks */,
+				1447145C18EFA322000DE761 /* UIKit.framework in Frameworks */,
+				1447145818EFA322000DE761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1447147218EFA323000DE761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1447147718EFA323000DE761 /* XCTest.framework in Frameworks */,
+				1447147918EFA323000DE761 /* UIKit.framework in Frameworks */,
+				1447147818EFA323000DE761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1447144B18EFA322000DE761 = {
+			isa = PBXGroup;
+			children = (
+				1447145D18EFA322000DE761 /* DanceSea */,
+				1447147C18EFA323000DE761 /* DanceSeaTests */,
+				1447145618EFA322000DE761 /* Frameworks */,
+				1447145518EFA322000DE761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1447145518EFA322000DE761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1447145418EFA322000DE761 /* DanceSea.app */,
+				1447147518EFA323000DE761 /* DanceSeaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1447145618EFA322000DE761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1447145718EFA322000DE761 /* Foundation.framework */,
+				1447145918EFA322000DE761 /* CoreGraphics.framework */,
+				1447145B18EFA322000DE761 /* UIKit.framework */,
+				1447147618EFA323000DE761 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1447145D18EFA322000DE761 /* DanceSea */ = {
+			isa = PBXGroup;
+			children = (
+				1447146618EFA322000DE761 /* DSAppDelegate.h */,
+				1447146718EFA322000DE761 /* DSAppDelegate.m */,
+				1447146918EFA322000DE761 /* Main.storyboard */,
+				1447146C18EFA322000DE761 /* DSViewController.h */,
+				1447146D18EFA322000DE761 /* DSViewController.m */,
+				1447146F18EFA322000DE761 /* Images.xcassets */,
+				1447145E18EFA322000DE761 /* Supporting Files */,
+			);
+			path = DanceSea;
+			sourceTree = "<group>";
+		};
+		1447145E18EFA322000DE761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1447145F18EFA322000DE761 /* DanceSea-Info.plist */,
+				1447146018EFA322000DE761 /* InfoPlist.strings */,
+				1447146318EFA322000DE761 /* main.m */,
+				1447146518EFA322000DE761 /* DanceSea-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1447147C18EFA323000DE761 /* DanceSeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1447148218EFA323000DE761 /* DanceSeaTests.m */,
+				1447147D18EFA323000DE761 /* Supporting Files */,
+			);
+			path = DanceSeaTests;
+			sourceTree = "<group>";
+		};
+		1447147D18EFA323000DE761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1447147E18EFA323000DE761 /* DanceSeaTests-Info.plist */,
+				1447147F18EFA323000DE761 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1447145318EFA322000DE761 /* DanceSea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1447148618EFA323000DE761 /* Build configuration list for PBXNativeTarget "DanceSea" */;
+			buildPhases = (
+				1447145018EFA322000DE761 /* Sources */,
+				1447145118EFA322000DE761 /* Frameworks */,
+				1447145218EFA322000DE761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanceSea;
+			productName = DanceSea;
+			productReference = 1447145418EFA322000DE761 /* DanceSea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1447147418EFA323000DE761 /* DanceSeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1447148918EFA323000DE761 /* Build configuration list for PBXNativeTarget "DanceSeaTests" */;
+			buildPhases = (
+				1447147118EFA323000DE761 /* Sources */,
+				1447147218EFA323000DE761 /* Frameworks */,
+				1447147318EFA323000DE761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1447147B18EFA323000DE761 /* PBXTargetDependency */,
+			);
+			name = DanceSeaTests;
+			productName = DanceSeaTests;
+			productReference = 1447147518EFA323000DE761 /* DanceSeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1447144C18EFA322000DE761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DanceSea;
+				TargetAttributes = {
+					1447147418EFA323000DE761 = {
+						TestTargetID = 1447145318EFA322000DE761;
+					};
+				};
+			};
+			buildConfigurationList = 1447144F18EFA322000DE761 /* Build configuration list for PBXProject "DanceSea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1447144B18EFA322000DE761;
+			productRefGroup = 1447145518EFA322000DE761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1447145318EFA322000DE761 /* DanceSea */,
+				1447147418EFA323000DE761 /* DanceSeaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1447145218EFA322000DE761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1447147018EFA322000DE761 /* Images.xcassets in Resources */,
+				1447146218EFA322000DE761 /* InfoPlist.strings in Resources */,
+				1447146B18EFA322000DE761 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1447147318EFA323000DE761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1447148118EFA323000DE761 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1447145018EFA322000DE761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1447146418EFA322000DE761 /* main.m in Sources */,
+				1447146E18EFA322000DE761 /* DSViewController.m in Sources */,
+				1447146818EFA322000DE761 /* DSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1447147118EFA323000DE761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1447148318EFA323000DE761 /* DanceSeaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1447147B18EFA323000DE761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1447145318EFA322000DE761 /* DanceSea */;
+			targetProxy = 1447147A18EFA323000DE761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1447146018EFA322000DE761 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1447146118EFA322000DE761 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1447146918EFA322000DE761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1447146A18EFA322000DE761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1447147F18EFA323000DE761 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1447148018EFA323000DE761 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1447148418EFA323000DE761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1447148518EFA323000DE761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1447148718EFA323000DE761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanceSea/DanceSea-Prefix.pch";
+				INFOPLIST_FILE = "DanceSea/DanceSea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1447148818EFA323000DE761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanceSea/DanceSea-Prefix.pch";
+				INFOPLIST_FILE = "DanceSea/DanceSea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1447148A18EFA323000DE761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DanceSea.app/DanceSea";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanceSea/DanceSea-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DanceSeaTests/DanceSeaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1447148B18EFA323000DE761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DanceSea.app/DanceSea";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanceSea/DanceSea-Prefix.pch";
+				INFOPLIST_FILE = "DanceSeaTests/DanceSeaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1447144F18EFA322000DE761 /* Build configuration list for PBXProject "DanceSea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1447148418EFA323000DE761 /* Debug */,
+				1447148518EFA323000DE761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1447148618EFA323000DE761 /* Build configuration list for PBXNativeTarget "DanceSea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1447148718EFA323000DE761 /* Debug */,
+				1447148818EFA323000DE761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1447148918EFA323000DE761 /* Build configuration list for PBXNativeTarget "DanceSeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1447148A18EFA323000DE761 /* Debug */,
+				1447148B18EFA323000DE761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1447144C18EFA322000DE761 /* Project object */;
+}
